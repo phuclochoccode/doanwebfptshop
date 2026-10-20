@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+        text-align: center;
+}
+header{
+    text-align: center;
+    background-image: url(../images/banner.png);
+}
+img{
+    width: 300px; height: 200px;
+}
+table{
+    width: 100%;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+#l1{
+    width: 20%;
+}
+#l1 img{
+    
+    text-align: left; 
+    width: 200px; height: 100px;
+}
+td a{
+    color: white;
+    text-decoration: none;
+}
+#l3{ 
+    float: right;
+    width: 20%;
+    background-color: rgb(141, 24, 24); color: white; margin: 0px; padding: 0px; border-radius: 5px;
+   vertical-align: middle;
+}
+nav{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: black;
+}
+nav a:hover {
+    background-color: rgb(255, 252, 69); 
+    border: 15px solid rgb(255, 252, 69);
+    border-radius: 5px;
+}
+
+.nb{
+    text-align: center;
+}
+.nb img{
+    width: 100px; height: 100px;
+}
+.nb img:hover{
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+}
+.kg{ 
+    text-align: center; 
+}
+.gthieu{
+    background-color: white;
+}
+table #chu{
+    width: 50%;
+    text-align: left;
+}
+table #h1{
+    width: 30%;
+}
+.sell{
+    text-align: center;
+}
+.sell{
+    gap: 20px;
+}
+.sell :hover{
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+}
+#h2{
+    width: 40%;
+}
+#h3{
+    width: 30%;
+}
+footer{
+    background-color: rgb(235, 72, 36); color: white; 
+    text-align: center;
+}
+ #xem-them {
+    text-align: center;
+}
+#xem-them a {
+    text-decoration: none;
+    background-color: rgb(235, 72, 36);
+    color: white;
+    border-radius: 5px;
+}
+button {
+            background-color: rgb(235, 72, 36); color: white; 
+            text-align: center;
+            border-radius: 5px;
+        }

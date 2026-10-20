@@ -1,0 +1,60 @@
+body{
+    text-align: center; 
+}
+header{
+    text-align: center;
+    background-image: url(../images/banner.png);
+}
+img{
+    width: 300px; height: 200px;
+}
+table{
+    width: 100%;
+}
+main {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+#l1{
+    width: 20%;
+}
+#l1 img{
+    
+    text-align: left; 
+    width: 200px; height: 100px;
+}
+td a{
+    color: white;
+    text-decoration: none;
+}
+#l3{ 
+    float: right;
+    width: 20%;
+    background-color: rgb(141, 24, 24); color: white; margin: 0px; padding: 0px; border-radius: 5px;
+   vertical-align: middle;
+}
+nav{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: black;
+}
+nav a:hover {
+    background-color: rgb(255, 252, 69); 
+    border: 15px solid rgb(255, 252, 69);
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(152, 150, 150); color: rgb(0, 0, 0); margin: 0px; padding: 0px; border-radius: 5px;
+}
+button {
+            background-color: rgb(235, 72, 36); color: white; 
+            text-align: center;
+            border-radius: 5px;
+        }

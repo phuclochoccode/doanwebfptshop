@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+}
+body{
+    text-align: center; background-color: rgb(226, 219, 214);
+}
+header{
+    background-image: url(../images/banner.png);
+}
+img{
+    width: 300px; height: 200px;
+}
+table{
+    width: 100%;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+#l1{
+    width: 20%;
+}
+#l1 img{
+    
+    text-align: left; 
+    width: 200px; height: 100px;
+}
+td a{
+    color: white;
+    text-decoration: none;
+}
+#l3{ 
+    float: right;
+    width: 20%;
+    background-color: rgb(141, 24, 24); color: white; margin: 0px; padding: 0px; border-radius: 5px;
+   vertical-align: middle;
+}
+nav{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: black;
+}
+nav a:hover {
+    background-color: rgb(255, 252, 69); 
+    border: 15px solid rgb(255, 252, 69);
+    border-radius: 5px;
+}
+.sanpham {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 250px;
+            height: 300px;
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        button {
+            background-color: rgb(235, 72, 36); color: white; 
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .box img {
+            width: 220px;
+            height: 180px;
+        }
+        .box h2{
+            font-size: medium;
+        }
+        .sanpham :hover{
+            transform: scale(1.2);
+            transition: all 0.3s ease-in-out;
+        }
+        
